@@ -7,12 +7,19 @@ import org.openqa.selenium.support.How;
 
 public class RegistrationPage {
 
+    //Поиск поля для ввода Имени
     @FindBy(how = How.CSS, using = "fieldset:nth-child(1) input")
     private SelenideElement nameInput;
+
+    //Поиск поля для ввода email
     @FindBy(how = How.CSS, using = "fieldset:nth-child(2) input")
     private SelenideElement emailInput;
+
+    //Поиск поля для ввода пароля
     @FindBy(how = How.CSS, using = "fieldset:nth-child(3) input")
     private SelenideElement passwordInput;
+
+    //Поиск кнопки войти
     @FindBy(how = How.XPATH, using = "//*[text()='Войти']")
     private SelenideElement enterButton;
 
@@ -20,6 +27,7 @@ public class RegistrationPage {
     @FindBy(how = How.XPATH, using = "//*[text()='Некорректный пароль']")
     private SelenideElement passwordTextError;
 
+    //Поиск кнопки регистрации
     @FindBy(how = How.XPATH, using = "//*[text()='Зарегистрироваться']")
     private SelenideElement registrationButton;
 
@@ -47,18 +55,24 @@ public class RegistrationPage {
         return this;
     }
 
+    /**
+     * Клик по кнопке регистрации
+     */
     public RegistrationPage registrationButtonClick() {
         registrationButton.click();
         return this;
     }
 
+    /**
+     * Клик по кнопке Войти
+     */
     public RegistrationPage clickEnterButton() {
         enterButton.click();
         return this;
     }
 
     /**
-     * @return
+     * Ошибка при вводе пароля
      */
     public boolean passwordTextErrorVisible() {
         passwordTextError.shouldBe(Condition.visible);
