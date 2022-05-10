@@ -1,4 +1,4 @@
-package Praktikum.Pages;
+package praktikm.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.support.FindBy;

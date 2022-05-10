@@ -1,7 +1,7 @@
-package Praktikum;
+package praktikum;
 
-import Praktikum.Pages.MainPage;
-import Praktikum.Pages.PersonalAccountPage;
+import praktikm.pages.MainPage;
+import praktikm.pages.PersonalAccountPage;
 import jdk.jfr.Description;
 import org.junit.After;
 import org.junit.Before;

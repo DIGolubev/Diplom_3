@@ -1,10 +1,10 @@
-package Praktikum;
+package praktikum;
 
-import Praktikum.Pages.*;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;
+import praktikm.pages.*;
 //import org.openqa.selenium.chrome.ChromeDriver;
 
 import static com.codeborne.selenide.Selenide.open;

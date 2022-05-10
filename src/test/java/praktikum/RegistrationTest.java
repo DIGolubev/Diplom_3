@@ -1,8 +1,8 @@
-package Praktikum;
+package praktikum;
 
-import Praktikum.Pages.LoginPage;
-import Praktikum.Pages.MainPage;
-import Praktikum.Pages.RegistrationPage;
+import praktikm.pages.LoginPage;
+import praktikm.pages.MainPage;
+import praktikm.pages.RegistrationPage;
 import org.junit.Before;
 import org.junit.Test;
 //import org.openqa.selenium.chrome.ChromeDriver;

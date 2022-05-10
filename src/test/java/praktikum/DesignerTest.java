@@ -1,8 +1,8 @@
-package Praktikum;
+package praktikum;
 
-import Praktikum.Pages.LoginPage;
-import Praktikum.Pages.MainPage;
-import Praktikum.Pages.PersonalAccountPage;
+import praktikm.pages.LoginPage;
+import praktikm.pages.MainPage;
+import praktikm.pages.PersonalAccountPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
